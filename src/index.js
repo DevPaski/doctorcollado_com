@@ -1,7 +1,7 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { BrowserRouter, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as HashRouter, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { 
     Home,
@@ -72,7 +72,7 @@ import './index.css';
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <Router>
                 <Routes>
                     <Route path='/' element={<Main />} />
@@ -146,7 +146,7 @@ ReactDOM.render(
                     <Route path='/galeria' element={<Galeria />} />
                 </Routes>
             </Router>
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>,
 
     document.getElementById('root')
