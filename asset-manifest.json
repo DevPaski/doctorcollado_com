@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/doctorcollado_com/static/css/main.524d1945.css",
-    "main.js": "/doctorcollado_com/static/js/main.3f82dd19.js",
+    "main.js": "/doctorcollado_com/static/js/main.ee1257ab.js",
     "static/media/background__medicina_estetica.mp4": "/doctorcollado_com/static/media/background__medicina_estetica.19be8f9168a1f3504058.mp4",
     "static/media/background__cirugia_reparadora.mp4": "/doctorcollado_com/static/media/background__cirugia_reparadora.e6e5636b0a22b557d5e1.mp4",
     "static/media/drcollado_hilos_tensores.jpg": "/doctorcollado_com/static/media/drcollado_hilos_tensores.9a1875058a41c0555340.jpg",
@@ -59,10 +59,10 @@
     "static/media/telef_movil.svg": "/doctorcollado_com/static/media/telef_movil.39f944f4687c330a15ffb57496a214f1.svg",
     "static/media/correo.svg": "/doctorcollado_com/static/media/correo.aeb7d007550bca565b9b65a83dd7a45a.svg",
     "main.524d1945.css.map": "/doctorcollado_com/static/css/main.524d1945.css.map",
-    "main.3f82dd19.js.map": "/doctorcollado_com/static/js/main.3f82dd19.js.map"
+    "main.ee1257ab.js.map": "/doctorcollado_com/static/js/main.ee1257ab.js.map"
   },
   "entrypoints": [
     "static/css/main.524d1945.css",
-    "static/js/main.3f82dd19.js"
+    "static/js/main.ee1257ab.js"
   ]
 }
