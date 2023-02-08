@@ -1,0 +1,1 @@
+export {default as FooterGallery} from './footer_element/Footer';

@@ -1,0 +1,103 @@
+/*LOGO*/
+
+.mobile__nav{
+    visibility: hidden;
+}
+
+.logo{
+    position: absolute;
+    z-index: 21;
+    margin: 2.5rem 5rem;
+    cursor: pointer;
+
+    display: flex;
+}
+
+.logo a{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-right: 20rem;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo a img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo__text{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    color: white;
+}
+
+.logo__text hr{
+    margin-bottom: 5px;
+}
+/*ADAPTABILITY*/
+
+@media only screen and (max-width: 430px){
+    .logo img{
+        margin-left: -25%;
+        margin-right: -20px;
+    }
+
+    .logo__text{
+        width: 60vw;
+    }
+
+    .logo__text hr{
+        width: 52.5vw;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .logo a{
+        margin-right: 5rem;
+    }
+
+    .logo__text{
+        width: 220px;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+}
+@media screen and (min-width: 1536px) {
+    .logo a{
+        margin-right: 10rem;
+    }
+
+    .logo__text{
+        width: 220px;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .logo a{
+        margin-right: 0rem;
+    }
+
+    .logo__text{
+        width: 220px;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25){
+    .logo a{
+        margin-right: 15vw;
+    }
+
+    .logo__text{
+        width: 220px;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+}

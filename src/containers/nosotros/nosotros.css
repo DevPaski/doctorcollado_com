@@ -1,0 +1,182 @@
+.nosotros__bg{
+    width: 100vw;
+    height: 170vh;
+    background-color: #63bd99;
+}
+
+.nosotros__overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nosotros__content__bg{
+    width: 100vw;
+    height: 130vh;
+    background-color: white;
+    
+    position: absolute;
+    margin-top: 10%;
+}
+
+.nosotros__content{
+    margin-top: 5%;
+    margin-left: 2%;
+    
+    font-size: 2em;
+}
+
+.nosotros__content h1{
+    margin-left: 5%;
+}
+
+.nosotros__content h1:hover{
+    transition: 500ms;
+    color: #63bd99;
+}
+
+.nosotros__content .nosotros__member{
+    margin-top: 5%;
+
+    width: 88vw;
+    height: 50vh;
+
+    display: flex;
+}
+
+.nosotros__content .nosotros__member .nosotros__member__photo{
+    /* background-color: grey; */
+    width: 54%;
+    height: 100%;
+}
+
+.nosotros__content .nosotros__member .nosotros__member__photo .nosotros__member__photo__bg{
+    width: 56%;
+    height: 100%;
+    /* background-color: #63bd99; */
+    background-image: url('../../assets/img/foto_doctor_collado.jpg');
+    background-repeat: no-repeat;
+    background-size: 105%;
+
+    margin-left: 25%;
+    border-radius: 10000px;
+}
+
+.nosotros__content .nosotros__member .nosotros__member__description{
+    width: 50%;
+    height: 100%;
+}
+
+.nosotros__content .nosotros__member .nosotros__member__description h3{
+    margin-top: 2%;
+}
+
+.nosotros__content .nosotros__member .nosotros__member__description p{
+    width: 90%;
+    margin-top: 2%;
+    text-align: justify;
+    line-height: 45px;
+}
+
+special_character{
+    margin-left: 5px;
+}
+
+.nosotros__content .nosotros__swiper{
+    margin-top: 10%;
+    width: 70vw;
+}
+
+.nosotros__content .nosotros__swiper .nosotros__slider a img{
+    /* filter: grayscale(100%); */
+    margin-left: 35%;
+}
+
+.first__slider{
+    margin-top: 2%;
+}
+
+.second__slider{
+    margin-top: 2%;
+}
+
+@media only screen and (max-width: 430px){
+    .nosotros__bg{
+        height: 180vh;
+    }
+
+    .nosotros__content__bg{
+        margin-top: 22vh;
+    }
+
+    .nosotros__content h1{
+        margin-top: 5vh;
+        font-size: 2rem;
+    }
+
+    .nosotros__content .nosotros__member{
+        margin-top: 5%;
+    
+        width: 88vw;
+        height: 50vh;
+    
+        display: block;
+
+        /* border: 2px solid red; */
+    }
+
+    .nosotros__content .nosotros__member .nosotros__member__photo .nosotros__member__photo__bg{
+        width: 150%;
+        height: 70%;
+
+        background-image: url('../../assets/img/foto_doctor_collado.jpg');
+        background-repeat: no-repeat;
+        background-size: 105%;
+    
+        border-radius: 10000px;
+
+        /* border: 2px solid green; */
+    }
+
+    .nosotros__content .nosotros__member .nosotros__member__description{
+        width: 95%;
+        height: 100%;
+        margin-left: 5%;
+        margin-top: -20%;
+    }
+    
+    .nosotros__content .nosotros__member .nosotros__member__description h3{
+        margin-top: 0%;
+
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+    
+    .nosotros__content .nosotros__member .nosotros__member__description p{
+        font-size: 1.25rem;
+
+        width: 100%;
+        margin-top: 0%;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .nosotros__content .nosotros__swiper{
+        margin-top: 80%;
+        margin-left: 2.5%;
+        width: 90vw;
+    }
+    
+    .nosotros__content .nosotros__swiper .nosotros__slider a img{
+        filter: grayscale(100%);
+        margin-left: 15%;
+    }
+    
+    .first__slider{
+        margin-top: 10%;
+    }
+    
+    .second__slider{
+        margin-top: 8%;
+    }
+}

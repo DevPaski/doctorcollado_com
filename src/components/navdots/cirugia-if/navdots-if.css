@@ -1,0 +1,61 @@
+.navdots-cif {
+    position: absolute;
+    z-index: 24;
+    margin-left: 90vw;
+    margin-top: 40vh;
+    width: 1.3vw;
+}
+
+.dot {
+    display: inline-block;
+    list-style: none;
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: transparent;
+    border: 6px solid white;
+    border-radius: 100%;
+    margin-bottom: 5vh;
+
+    cursor: pointer;
+}
+
+@media only screen and (min-width:1440px) {
+    .dot {
+        display: inline-block;
+        list-style: none;
+        width: 0.5vw;
+        height: 0.5vw;
+        background-color: transparent;
+        border: 6px solid white;
+        border-radius: 100%;
+        margin-bottom: 5vh;
+    
+        cursor: pointer;
+    }
+}
+
+.dot.active {
+    transition: 300ms;
+    background-color: white;
+}
+
+@media only screen and (max-width: 430px){
+    .navdots-cif{
+        visibility: hidden;
+
+        margin-left: 90vw;
+    }
+
+    .dot{
+        display: inline-block;
+        list-style: none;
+        width: 0.5vw;
+        height: 0.5vw;
+        background-color: transparent;
+        border: 6px solid white;
+        border-radius: 100%;
+        margin-bottom: 5vh;
+    
+        cursor: pointer;
+    }
+}

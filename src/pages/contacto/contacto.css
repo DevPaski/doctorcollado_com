@@ -1,0 +1,371 @@
+.contact__wrapper{
+    width: 100vw;
+    height: 250vh;
+    background-color: #63bd99;
+}
+
+.contact__overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contact__content{
+    position: absolute;
+    width: 100%;
+    height: 215vh;
+    margin-top: 10%;
+
+    background-color: white;
+
+    font-size: 2em;
+}
+
+.contact__content div{
+    margin-top: 2%;
+}
+
+.contact__content h1{
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
+.contact__content hr{
+    margin-top: 1.5%;
+    width: 88vw;
+    margin-left: 6%;
+}
+
+.contact__content h2{
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+@media only screen and (min-width: 600px){
+    .contact__content .contact__map{
+        width: 88vw;
+    
+        display: flex;
+    
+        margin-left: 6%;
+        /* border: 2px solid red; */
+    }
+}
+
+.contact__content .contact__map .contact__map__iframe{
+    width: 50vw;
+    height: 75vh;
+}
+
+.contact__map__direction{
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.contact__content .contact__map .contact__map__data{
+    margin-left: 6%;
+    margin-top: 0%;
+}
+
+.contact__content .contact__map .contact__map__data ul{
+    list-style: none;
+    margin-top: 5%;
+}
+
+.contact__content .contact__map .contact__map__data ul li{
+    border: 5px solid #63bd99;
+
+    border-radius: 100px;
+    width: 500px;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+.contact__content .contact__map .contact__map__data ul li:hover{
+    background-color: #45846B;
+    border: 5px solid #45846B;
+    color: white;
+    transition: 500ms;
+}
+
+.contact__content .contact__map .contact__map__data a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #63bd99;
+    font-weight: bold;
+}
+
+.contact__content .contact__map .contact__map__data ul a li img {
+    margin-right: 25px;
+}
+
+
+.contact__content .contact__alternatives .contact__alter__types{
+    display: flex;
+
+    width: 88vw;
+    height: 15vh;
+    margin-left: 6%;
+
+    /* border: 2px solid red; */
+}
+
+.contact__content .contact__alter__types .contact__doctoralia{
+    width: 50%;
+    height: 100%;
+
+    margin-right: 30px;
+
+    /* border: 2px solid green; */
+}
+
+.contact__content .contact__alter__types .contact__doctoralia a{
+    display: flex;
+
+    text-decoration: none;
+    text-align: center;
+    color: #00C3A5;
+
+    padding: 20px;
+
+    border: 4px solid #00C3A5;
+    border-radius: 100px;
+}
+
+.contact__content .contact__alter__types .contact__doctoralia a:hover{
+    background-color: #008370;
+    color: white;
+    border-color: #008370;
+    transition: 500ms;
+}
+
+.contact__content .contact__alter__types .contact__doctoralia a img{
+    margin-left: 25%;
+}
+
+.contact__content .contact__alter__types .contact__topdoctors{
+    /* border: 2px solid aqua; */
+    width: 50%;
+    height: 100%;
+}
+
+.contact__content .contact__alter__types .contact__topdoctors a{
+    display: flex;
+
+    text-decoration: none;
+    text-align: center;
+    color: #093B5B;
+    padding: 20px;
+
+    border: 4px solid #093B5B;
+
+    border-radius: 100px;
+}
+
+.contact__content .contact__alter__types .contact__topdoctors a:hover{
+    background-color: #031a28;
+    border-color: #031a28;
+    color: white;
+    transition: 500ms;
+}
+
+.contact__content .contact__alter__types .contact__topdoctors a img{
+    margin-left: 20%;
+}
+
+.contact__content .contact__alter__types .contact__topdoctors a p{
+    font-size: 58px;
+    font-weight: bold;
+
+    margin-top: 2.5%;
+    margin-left: 2%;
+}
+
+.contact__content .lastSection{
+    display: flex;
+
+    width: 88vw;
+    height: 30vh;
+    margin-left: 6%;
+    margin-top: 7%;
+
+    /* border: 2px solid red; */
+}
+
+.lastSection h2{
+    margin-left: 0%;
+    text-align: center;
+}
+
+.contact__content .lastSection .contact__socials{
+    width: 50%;
+}
+
+.contact__content .lastSection .contact__socials .contact__socials__icons{
+    display: flex;
+    margin-left: 33%;
+    margin-top: 8%;
+}
+
+.contact__socials__facebook img{
+    width: 100px;
+
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.contact__socials__insta img{
+    width: 100px;
+}
+
+.acreditacion{
+    width: 50%;
+    right: 0;
+    margin-right: 10px;
+}
+
+.acreditacion img{
+    margin-left: 20%;
+}
+
+.acreditacion h2{
+    text-align: center;
+}
+
+.acreditacion p{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 430px){
+    .contact__wrapper{
+        height: 300vh;
+    }
+
+    .contact__content {
+        margin-top: 22vh;
+
+        height: 265vh;
+    }
+
+    .contact__content h1{
+        margin-top: 5vh;
+        font-size: 2rem;
+    }
+
+    .contact__content h2{
+        margin-top: 5vh;
+        font-size: 1.5rem;
+    }
+
+    .contact__map{
+        display: inline-block;
+        width: 90vw;
+    }
+
+    .contact__content .contact__map .contact__map__iframe{
+        width: 100%;
+        margin-left: 4.5vw;
+    }
+
+    .contact__content .contact__map .contact__map__data{
+        font-size: 1.25rem;
+        margin-top: 5vh;
+    }
+
+    .contact__content .contact__map .contact__map__data ul{
+        margin-top: 5vh;
+    }
+
+    .contact__content .contact__map .contact__map__data ul a li{
+        width: 300px;
+    }
+
+    .contact__content .contact__alternatives .contact__alter__types{
+        display: inline-block;
+    
+        width: 90vw;
+        height: 15vh;
+        margin-left: 6%;
+    }
+
+    .contact__content .contact__alter__types .contact__doctoralia{
+        width: 100%;
+
+        margin-right: 40px;
+    }
+
+    .contact__content .contact__alter__types .contact__doctoralia a{
+        height: 30%;
+        width: 80%;
+    }
+
+    .contact__content .contact__alter__types .contact__doctoralia a img{
+        width: 250px;
+        
+        margin-left: 10%;
+        margin-top: -10%;
+    }
+
+
+    .contact__content .contact__alter__types .contact__topdoctors{
+        width: 100%;
+
+        margin-right: 40px;
+    }
+
+    .contact__content .contact__alter__types .contact__topdoctors a{
+        height: 30%;
+        width: 80%;
+    }
+
+    .contact__content .contact__alter__types .contact__topdoctors a img{
+        margin-left: 0%;
+        margin-top: -2%;
+        height: 50px;
+    }
+
+    .contact__content .contact__alter__types .contact__topdoctors a p{
+        font-size: 38px;
+        margin-top: 0%;
+        margin-left: -5%;
+    }
+
+    .contact__content .lastSection{
+        display: block;
+        width: 90vw;
+        height: 55vh;
+    }
+
+    .contact__content .lastSection .contact__socials h2{
+        text-align: left;
+        margin-left: 25%;
+        font-size: 1.5rem;
+        width: 100vw;
+    }
+
+    .contact__content .lastSection .contact__socials img{
+        width: 60px;
+        margin-left: 40%;
+    }
+
+
+    .contact__content .lastSection .acreditacion h2{
+        text-align: left;
+        margin-left: 18%;
+        font-size: 1.5rem;
+        width: 100vw;
+    }
+
+    .contact__content .lastSection .acreditacion img{
+        width: 350px;
+        margin-left: 0;
+    }
+
+    .contact__content .lastSection .acreditacion p{
+        width: 85vw;
+        font-size: 1.25rem;
+        margin-left: 2.5%;
+    }
+}

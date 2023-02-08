@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+MAIN SCREEN
+*/
+
+.home::-webkit-scrollbar{
+    display: none;
+}
+
+.home{
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.home__bg{
+    width: 100%;
+    height: 100vh;
+}
+
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.content__medicina_estetica{
+    margin-left: 3vw;
+}
+
+.medicina_estetica_title {
+    position: absolute;
+    color: white;
+    z-index: 16;
+    font-size: 3rem;
+    margin-left: 5vw;
+    margin-top: 12rem;
+    text-align: center;
+}
+
+.content__medicina_estetica_main{
+    position: absolute;
+    margin-top: 17rem;
+    margin-left: 6rem;
+    z-index: 18;
+
+    display: flex;
+}
+
+.content__frame_me_standard{
+    border: 5px solid white;
+    border-radius: 15px;
+    width: 350px;
+    height: 550px;
+    margin-right: 50px;
+}
+
+.content__frame_me_small_container{
+    border: 5px solid white;
+    border-radius: 15px;
+    width: 350px;
+    height: 250px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.content__frame_me_small_left{
+    display: inline-block;
+}
+
+.content__frame_me_small_right{
+    display: inline-block;
+}
+
+.content__frame_me_standard .content__frame_image{
+    position: relative;
+    width: 100%;
+    height: 76%;
+}
+
+.content__frame_me_standard .content__frame_image img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content__frame_me_small_container .content__frame_image img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content__frame_me_small_container .content__frame_image{
+    position: relative;
+    width: 100%;
+    height: 115px;
+}
+
+.content__medicina_estetica_main .content__frame_description{
+    position: relative;
+    width: 100%;
+    height: 135px;
+    background-color: white;    
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+
+    display: flex;
+    flex: 1;
+}
+
+.content__medicina_estetica_main .content__frame_description h6{
+    text-align: center;
+    margin-top: 0%;
+    font-size: 2rem;
+    width: 230px;
+}
+
+.cara_cuello .content__frame_description_standard{
+    margin-left: 10%;
+}
+
+.cara_cuello .content__frame_description_standard h6{
+    margin-top: 10%;
+}
+
+.content__medicina_estetica_main .content__frame_description_icon {
+    margin-top: 11%;
+    font-size: 4rem;
+}
+
+.content__medicina_estetica_main .content__frame_me_small_container .content__frame_description_standard{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.content__medicina_estetica_main .hilos_tensores .content__frame_description_standard{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+/*
+OVERLAY - BLACK SCREEN
+*/
+
+.home__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 10;
+}
+
+@media only screen and (max-width: 430px){
+    .home{
+
+        /* border: 10px solid lime; */
+        scrollbar-width: none;
+        overflow-y: scroll;
+        
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+        width: 100%;
+    }
+    
+    video{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .content__medicina_estetica_main .content__frame_description_icon {
+        visibility: hidden;
+    }
+
+    .medicina_estetica_title {
+        color: white;
+        position: absolute;
+        z-index: 16;
+        font-size: 2.5rem;
+        margin-left: 0.5rem;
+        margin-top: 11rem;
+        text-align: left;
+    }
+
+    .content__medicina_estetica_main{
+        margin-top: 230px;
+    }
+
+    .content__medicina_estetica_main .mobile_q_style{
+        height: 125px;
+        width: 160px;
+    }
+
+    .content__medicina_estetica_main .mobile_q_style h6{
+        font-size: 1.25rem;
+    }
+
+    .content__medicina_estetica_main .content__frame_me_standard{
+        height: 125px;
+        width: 160px;
+    }
+    
+    .content__medicina_estetica_main .mobile_q_style .content__frame_description{
+        height: 40%;
+        margin-top: -38px;
+    }
+
+    .content__frame_me_standard .content__frame_description{
+        height: 40%;
+        margin-top: -20px;
+    }
+
+    .content__medicina_estetica_main .q1{
+        margin-left: -5rem;
+    }
+
+    .content__medicina_estetica_main .q1 h6{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 5px;
+        margin-top: 5px;
+        margin-left: -20px;
+        line-height: 20px;
+    }
+
+    .content__medicina_estetica_main .q2{
+        margin-left: -30px;
+    }
+
+    .content__medicina_estetica_main .q2 h6{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 5px;
+        line-height: 20px;
+    }
+
+    .content__medicina_estetica_main .q3{
+        margin-left: -220px;
+        margin-top: -25px;
+    }
+
+    .content__medicina_estetica_main .q3 h6{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 18px;
+        line-height: 20px;
+    }
+
+    .content__medicina_estetica_main .q4{
+        margin-left: -220px;
+        margin-top: 150px;
+    }
+
+    .content__medicina_estetica_main .q4 h6{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        line-height: 20px;
+    }
+
+    .content__medicina_estetica_main .q5{
+        margin-left: -410px;
+        margin-top: -25px;
+    }
+
+    .content__medicina_estetica_main .q5 h6{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 12px;
+        line-height: 20px;
+    }
+
+    .content__medicina_estetica_main .q6{
+        margin-left: -220px;
+        margin-top: 300px;
+    }
+
+    .content__medicina_estetica_main .q6 .content__frame_description{
+        margin-top: -20px;
+    }
+
+    .content__medicina_estetica_main .q6 h6{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 5px;
+        margin-top: -15px;
+        margin-left: 10px;
+        line-height: 20px;
+    }
+}

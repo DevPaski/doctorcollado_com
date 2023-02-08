@@ -1,0 +1,447 @@
+/* --------------------------------------------------
+GENERAL
+-------------------------------------------------- */
+
+.navbar{
+    right: 0;
+
+    margin-top: 3vh;
+    margin-right: 11vw;
+    position: absolute;
+    z-index: 25;
+}
+
+.navbar__mobile{
+    visibility: hidden;
+}
+
+/* --------------------------------------------------
+MAIN ACTION NAVBAR
+-------------------------------------------------- */
+
+.navbar__links_container .navbar__main__menu{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+
+    display: flex;
+    margin-top: 2.6rem;
+    margin-right: 1.5rem;
+    border-radius: 15px;
+    /* list-style-type: none; */
+}
+
+.navbar__links_container .navbar__main__menu li {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.navbar__links_container .navbar__main__action a{
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.navbar__links_container .navbar__main__action a:hover{
+    transition: 500ms;
+    color: #63BD99;
+    background-color: white;
+}
+
+.navbar__links_container .navbar__links__special__borders{
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.navbar__links_container .navbar__links__special__borders:hover{
+    transition: 500ms;
+    color: #63BD99;
+    background-color: white;
+    box-shadow: 5px 0px 10px rgba(0,0,0, 0.25);
+}
+
+.navbar__links_container .navbar__links__dropdown{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+
+    margin-top: 3rem;
+    margin-right: 1.5rem;
+    display: flex;
+    padding: 15px;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    cursor: pointer;
+}
+
+.navbar__links_container .navbar__links__dropdown:hover{
+    transition: 500ms;
+    color: #63BD99;
+    background-color: #ffffff;
+}
+
+.navbar__links_container .navbar__links__button{
+    background-color: transparent;
+}
+
+.navbar__links_container .navbar__links__bg{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navbar__links_container a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar__links_container .dropdown {
+    position: relative;
+}
+
+/* --------------------------------------------------
+CTA CSS
+-------------------------------------------------- */
+
+.navbar .navbar__cta{
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    z-index: 16;
+
+    font-size: 1.5rem;
+    top: 3.5vh;
+
+    width: 150px;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #63BD99;
+    border: 1px solid #63BD99;
+    border-radius: 50px;
+
+    transition: 500ms;
+}
+
+.navbar h5:hover{
+    color: #EDEDED;
+    background-color: #2b5745;
+    border-color: #2b5745;
+}
+
+/* --------------------------------------------------
+DROPDOWN CSS <==============================> GENERAL
+-------------------------------------------------- */
+
+.dropdown__cestetica{
+    position: absolute;
+    visibility: hidden;
+    background-color: #fff;
+}
+
+@keyframes fadeIn{
+    0%{ opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.cestetica:hover .dropdown__cestetica{
+    visibility: visible;
+    animation: fadeIn 0.5s;
+
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+
+    margin-top: 40px;
+    width: 1000px;
+    margin-left: -250px;
+    color: black;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.25);
+}
+
+.cestetica__title{
+    width: 24%;
+}
+
+.cestetica a{
+    font-size: 18px;
+}
+
+.cestetica a:hover{
+    transition: 500ms;
+    color: #63BD99;
+}
+
+/* --------------------------------------------------
+CESTETICA FACIAL
+-------------------------------------------------- */
+
+.cestetica__facial{
+    width: 100%;
+    margin-top: 20%;
+    margin-left: -50%;
+}
+
+.cestetica__facial li a{
+    margin-top: 5px;
+    color: black;
+    font-weight: 400;
+}
+
+/* --------------------------------------------------
+CESTETICA MAMARIA
+-------------------------------------------------- */
+
+.cestetica__mama{
+    width: 100%;
+    margin-top: 15%;
+    margin-left: -61%;
+}
+
+.cestetica__mama li a{
+    margin-top: 5px;
+    color: black;
+    font-weight: 400;
+}
+
+/* --------------------------------------------------
+CESTETICA CORPORAL
+-------------------------------------------------- */
+
+.cestetica__corporal{
+    width: 100%;
+    margin-top: 15%;
+    margin-left: -61%;
+}
+
+.cestetica__corporal li a{
+    margin-top: 5px;
+    color: black;
+    font-weight: 400;
+}
+
+/* --------------------------------------------------
+CESTETICA IF
+-------------------------------------------------- */
+
+.cestetica__if{
+    width: 100%;
+    margin-top: 25%;
+    margin-left: -90%;
+}
+
+.cestetica__if li a{
+    margin-top: 5px;
+    color: black;
+    font-weight: 400;
+}
+
+
+/* --------------------------------------------------
+MEDICINA ESTETICA
+-------------------------------------------------- */
+
+.dropdown__mestetica{
+    position: absolute;
+    visibility: hidden;
+    background-color: #fff;
+}
+
+.mestetica:hover .dropdown__mestetica{
+    visibility: visible;
+    animation: fadeIn 0.5s;
+
+    margin-top: 40px;
+    width: 171px;
+    margin-left: -15px;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.25);
+}
+
+.dropdown__mestetica li a{
+    font-size: 18px;
+
+    margin-top: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+.dropdown__mestetica li a:hover{
+    color: #63BD99;
+    transition: 500ms;
+}
+
+/* --------------------------------------------------
+CIRUGIA REPARADORA
+-------------------------------------------------- */
+
+.dropdown__creparadora{
+    position: absolute;
+    visibility: hidden;
+    background-color: #fff;
+}
+
+.creparadora:hover .dropdown__creparadora{
+    visibility: visible;
+    animation: fadeIn 0.5s;
+
+    margin-top: 40px;
+    width: 187px;
+    margin-left: -15px;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.25);
+}
+
+.dropdown__creparadora li a{
+    font-size: 18px;
+
+    color: black;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.dropdown__creparadora li a:hover{
+    color: #63BD99;
+    transition: 500ms;
+}
+
+.drop_top{
+    margin-top: -30px;
+}
+
+/* --------------------------------------------------
+
+MOBILE MENU
+
+-------------------------------------------------- */
+
+@media only screen and (max-width: 1700px) {
+    .navbar{
+        visibility: hidden;
+        position: fixed;
+    }
+
+    .navbar__mobile{
+        visibility: visible;
+
+        position: absolute;
+        margin-top: 0;
+        top: 5.5vh;
+        margin-right: 0;
+        right: -5vw;
+        color: white;
+    }
+
+    .navbar__mobile .navbar__mobile__bg{
+        position: absolute;
+        width: 126vw;
+        height: 95vh;
+
+        top: 0;
+        left: 0;
+
+        margin-top: -9.5vh;
+        margin-left: -100vw;
+
+        /* background-color: rgba(255, 255, 255, 0.9); */
+        background-color: rgba(99, 189, 153, 0.8);
+        backdrop-filter: blur(3px);
+        z-index: 100;
+    }
+
+    .navbar__mobile__items{
+        list-style: none;
+        margin-top: 25vh;
+        margin-left: 5vw;
+
+        color: white;
+    }
+
+    .navbar__mobile__items li{
+        text-align: center;
+
+        font-size: 2rem;
+        margin-bottom: 50px;
+
+        /* border: 2px solid  red; */
+    }
+
+    .navbar__mobile__items li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar__mobile .navbar__mobile__sub__bg{
+        position: absolute;
+        width: 126vw;
+        height: 100%;
+
+        top: 0;
+        left: 0;
+
+        margin-top: 0vh;
+        margin-left: 0vw;
+
+        /* background-color: rgb(255, 255, 255); */
+        background-color: rgba(99, 189, 153, 0.8);
+        backdrop-filter: blur(3px);
+
+        z-index: 120;
+        border: 2px solid green;
+    }
+
+    .navbar__mobile__sub__bg .navbar__mobile__sub__items{
+        margin-top: 25vh;
+    }
+
+    .navbar__mobile__sub__under__bg{
+        position: absolute;
+        width: 126vw;
+        height: 100%;
+
+        top: 0;
+        left: 0;
+
+        margin-top: 0vh;
+        margin-left: 0vw;
+
+        /* background-color: rgb(255, 255, 255); */
+
+        background-color: rgba(99, 189, 153, 0.8);
+        backdrop-filter: blur(3px);
+
+        z-index: 140;
+        /* border: 2px solid green; */
+    }
+
+    .navbar__mobile__sub__under__bg .navbar__mobile__sub__items__cf{
+        margin-top: 15vh;
+    }
+
+    .navbar__mobile__sub__bg .navbar__mobile__sub__items__me{
+        margin-top: 17vh;
+        width: 75%;
+        margin-left: 14%;
+    }
+
+    .navbar__mobile__bg .navbar__mobile__sub__items__cr{
+        margin-top: 25vh;
+        width: 75%;
+        margin-left: 14%;
+    }
+}

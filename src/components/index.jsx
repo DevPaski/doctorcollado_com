@@ -1,0 +1,13 @@
+export {default as Navbar} from './navbar/Navbar';
+export {default as Overlay} from './overlay/Overlay';
+export {default as Footer} from './footer/Footer';
+// export {default as Header} from './header/Header';
+export {default as NavDotsGeneral} from './navdots/general/NavDots';
+export {default as NavDotsAlter} from './navdots/alter/NavDots';
+export {default as NavDotsCorporal} from './navdots/cirugia-corporal/NavDots';
+export {default as NavDotsFacial} from './navdots/cirugia-facial/NavDots';
+export {default as NavDotsMamaria} from './navdots/cirugia-mamaria/NavDots';
+export {default as NavDotsIF} from './navdots/cirugia-if/NavDots';
+export {default as NavbarFull} from './full-screen-navbar/NavbarFull';
+export {default as Logo} from './logo/Logo';
+export {default as LogoMain} from './logo_main/Logo';

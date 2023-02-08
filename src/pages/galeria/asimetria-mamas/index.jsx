@@ -1,0 +1,1 @@
+export {default as AsimetriaMamas} from './c1/asimetria_mamas';

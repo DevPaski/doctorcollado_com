@@ -1,0 +1,57 @@
+/*LOGO*/
+
+.logo{
+    position: absolute;
+    z-index: 21;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+
+.logo a{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    /* margin-right: 20rem; */
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo a img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo__text{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    color: white;
+}
+
+.logo__text hr{
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 1920px){
+    .logo a{
+        margin-right: 0rem;
+    }
+
+    .logo__text{
+        width: 220px;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .logo a{
+        margin-left: 0rem;
+    }
+
+    .logo__text hr{
+        width: 57vw;
+    }
+} 

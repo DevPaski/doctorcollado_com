@@ -1,0 +1,23 @@
+{
+    "discord.enabled": false,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#fc4d5c",
+        "activityBar.background": "#fc4d5c",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#19fb04",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#fc4d5c",
+        "statusBar.background": "#fb1b2e",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#fc4d5c",
+        "statusBarItem.remoteBackground": "#fb1b2e",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#fb1b2e",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#fb1b2e99",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#fb1b2e"
+}

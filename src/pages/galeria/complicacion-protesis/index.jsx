@@ -1,0 +1,1 @@
+export {default as ComplicacionProtesis} from './c1/complicacion_protesis';

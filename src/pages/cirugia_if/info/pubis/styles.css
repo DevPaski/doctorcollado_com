@@ -1,0 +1,175 @@
+
+.info__if_pubis{
+    width: 100%;
+    height: 150vh;
+}
+
+.content__overlay__if_pubis{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 15;
+    height: 150vh;
+    width: 100%;
+}
+
+.content__container__if_pubis{
+    border: 1px solid white;
+    border-radius: 25px;
+    /* border-top-left-radius: 25px; */
+    /* border-top-right-radius: 25px; */
+    background-color: white;
+    width: 75vw;
+    z-index: 16;
+    position: absolute;
+
+    margin-top: 20vh;
+    margin-left: 12.5vw;
+}
+
+.bg__content_info__if_pubis{
+    position: fixed;
+    z-index: 14;
+}
+
+.content__info__if_pubis{
+    padding: 125px;
+    color: black;
+}
+
+.content__info__if_pubis h1{
+    font-size: 3rem;
+}
+
+.content__info__if_pubis p{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.content__info__if_pubis h2 {
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.content__info__if_pubis ul li{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+/*FOOTER*/
+
+.footer__info__if_pubis{
+    color: white;
+
+    margin-top: 140vh;
+    position: absolute;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    z-index: 15;
+}
+
+.footer__info__if_pubis a:hover{
+    transition: 500ms;
+    color: #63BD99;
+}
+
+/*SITE INFO*/
+
+.footer__info_site__if_pubis{
+    margin-left: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__info_site__if_pubis ul li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.footer__info_site__if_pubis ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*UNDERLINE FOOTER EFFECT*/
+
+.footer__info__if_pubis  a.underline{
+    position: relative;
+  }
+
+.footer__info__if_pubis a.underline:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 4px;
+    bottom: -5px;
+    left: 0;
+    background-color: #63BD99;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer__info__if_pubis a.underline:hover:before{
+    visibility: visible;
+    width: 100%;
+}
+
+@media only screen and (max-width: 430px){
+    .info__if_pubis{
+        width: 100vw;
+        height: 170vh;
+    }
+
+    .bg__content_info__if{
+        object-fit: cover;
+    }
+
+    .content__overlay__if_pubis{
+        width: 100vw;
+        height: 180vh;
+    }
+
+    .info__if_pubis .content__container__if_pubis{
+        width: 90vw;
+        margin-left: 4.5vw;
+    }
+
+    .info__if_pubis p{
+        font-size: 1.25rem;
+    }
+
+    .info__if_pubis p ul li{
+        line-height: 25px;
+    }
+    .info__if_pubis p ol li{
+        line-height: 25px;
+    }
+
+    .info__if_pubis h1{
+        font-size: 1.5rem;
+    }
+
+    .info__if_pubis h2{
+        font-size: 1.35rem;
+    }
+
+    .info__if_pubis .content__info__if_pubis{
+        padding: 25px;
+    }
+
+    .footer__info__if_pubis{
+        margin-top: 170vh;
+        margin-left: 8%;
+        width: 350px;
+    }
+
+    .footer__info_site__if_pubis{
+        margin-left: 0%;
+    }
+
+    .footer__info_site__if_pubis ul li{
+        margin-right: 0.5rem;
+    }
+  }

@@ -1,0 +1,1 @@
+export {default as AumentoGluteosC1 } from './c1/gluteos';

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+MAIN SCREEN
+*/
+
+.home::-webkit-scrollbar{
+    display: none;
+}
+
+.home{
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.home__bg{
+    width: 100%;
+    height: 100vh;
+}
+
+.bg__img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.home__content .content__section .content__title{
+    position: absolute;
+    color: white;
+    z-index: 16;
+    font-size: 3rem;
+    margin-left: 10vw;
+    margin-top: 12rem;
+    text-align: center;
+}
+
+.home__content .content__section .main__content p{
+    margin-top: 20rem;
+    margin-left: 10vw;
+    text-align: justify;
+    position: absolute;
+    width: 75vw;
+    font-size: 1.5rem;
+    color: white;
+    z-index: 16;
+}
+
+.home__content .content__section .main__content h3{
+    margin-top: 43rem;
+    margin-left: 10vw;
+    text-align: justify;
+    position: absolute;
+    color: white;
+    z-index: 16;
+    font-size: 2rem;
+    background: linear-gradient(to left, transparent 50%, white 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition:all 2s ease;
+    padding: 25px;
+    border: 5px solid white;
+    border-radius: 15px;
+
+    cursor: pointer;
+}
+
+.home__content .content__section .main__content h3:hover{
+    background-position:left bottom;
+    color: black;
+    transition: 500ms;
+}
+
+/*
+OVERLAY - BLACK SCREEN
+*/
+
+.home__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 10;
+}

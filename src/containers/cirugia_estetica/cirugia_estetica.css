@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+MAIN SCREEN
+*/
+
+.home::-webkit-scrollbar{
+    display: none;
+}
+
+.home{
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.home__bg{
+    width: 100%;
+    height: 100vh;
+}
+
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.content__cirugia_estetica{
+    position: absolute;
+    margin-top: 17rem;
+    margin-left: 6rem;
+    z-index: 18;
+
+    display: flex;
+}
+
+.cirugia_estetica__title {
+    color: white;
+    position: absolute;
+    z-index: 16;
+    font-size: 3rem;
+    margin-left: 5vw;
+    margin-top: 12rem;
+    text-align: center;
+}
+
+.content__frame__estetica{
+    border: 5px solid white;
+    border-radius: 15px;
+    width: 350px;
+    height: 550px;
+    margin-right: 50px;
+}
+
+.content__frame__estetica .content__frame_image{
+    position: relative;
+    width: 100%;
+    height: 415px;
+    /* border: 5px solid red; */
+}
+
+.content__frame__estetica .content__frame_image img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content__frame__estetica .content__frame_description{
+    position: relative;
+    width: 100%;
+    height: 135px;
+    background-color: white;    
+    border-radius: 0px 0px 10px 10px;
+    /* border: 3px solid green; */
+    cursor: pointer;
+
+    display: flex;
+    flex: 1;
+}
+
+.content__frame__estetica .content__frame_description h6{
+    margin-top: 15%;
+    margin-left: 25%;
+    font-size: 2rem;
+}
+
+.content__frame__estetica .content__frame_description_icon {
+    margin-top: 11%;
+    margin-left: 10%;
+    font-size: 4rem;
+}
+
+.content__frame__estetica .content__frame_description_if{
+    position: relative;
+    width: 100%;
+    height: 135px;
+    background-color: white;    
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+
+    display: flex;
+    flex: 1;
+}
+
+.content__frame__estetica .content__frame_description_if h6{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 2rem;
+    width: 150px;
+}
+
+.content__frame_description_if .content__frame_description_icon{
+    margin-top: 11%;
+    margin-left: 5%;
+    font-size: 4rem;
+}
+
+.cirugia_estetica__content{
+    margin-left: 3vw;
+}
+
+/*
+OVERLAY - BLACK SCREEN
+*/
+
+.home__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 10;
+}
+
+@media only screen and (max-width: 430px){
+    .home{
+
+        /* border: 10px solid lime; */
+        scrollbar-width: none;
+        overflow-y: scroll;
+        
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+        width: 100%;
+    }
+    
+    video{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .content__cirugia_estetica{
+        position: absolute;
+        z-index: 18;
+    }
+    
+    .cirugia_estetica__title {
+        color: white;
+        position: absolute;
+        z-index: 16;
+        font-size: 2.5rem;
+        margin-left: 1.25rem;
+        margin-top: 11rem;
+        text-align: left;
+    }
+
+    .cirugia_estetica__content .content__cirugia_estetica{
+        margin-top: 14rem;
+        margin-left: 0.75rem;
+        margin-right: 10px;
+            
+        display: block;
+
+        width: 85vw;
+        height: 55vh;
+        padding: 5px;
+    }
+
+    .cirugia_estetica__content .content__cirugia_estetica .q1{
+        float: left;
+    }
+
+    .cirugia_estetica__content .content__cirugia_estetica .q2{
+        margin-right: 0;
+        margin-top: -210px;
+        float: right;
+    }
+
+    .cirugia_estetica__content .content__cirugia_estetica .q3{
+        margin-top: 40px;
+        float: left;
+    }
+
+    .cirugia_estetica__content .content__cirugia_estetica .q4{
+        margin-right: 0;
+        margin-top: -210px;
+        float: right;
+    }
+    
+    .content__frame__estetica{
+        border: 5px solid white;
+        border-radius: 15px;
+        width: 150px;
+        height: 200px;
+    }
+    
+    .content__frame__estetica .content__frame_image{
+        position: relative;
+        width: 100%;
+        height: 70%;
+        /* border: 5px solid red; */
+    }
+    
+    .content__frame__estetica .content__frame_image img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    
+    .content__frame__estetica .content__frame_description{
+        position: relative;
+        width: 100%;
+        height: 30%;
+        background-color: white;    
+        border-radius: 0px 0px 10px 10px;
+        /* border: 3px solid green; */
+        cursor: pointer;
+    
+        display: flex;
+        flex: 1;
+    }
+    
+    .content__frame__estetica .content__frame_description h6{
+        margin-top: 15%;
+        margin-left: 28%;
+        font-size: 1.5rem;
+    }
+    
+    .content__frame__estetica .content__frame_description_icon {
+        margin-top: 13%;
+        margin-left: 10%;
+        font-size: 2rem;
+
+        visibility: hidden;
+    }
+    
+    .content__frame__estetica .content__frame_description_if{
+        position: relative;
+        width: 100%;
+        height: 30%;
+        background-color: white;    
+        border-radius: 0px 0px 10px 10px;
+        cursor: pointer;
+    
+        display: flex;
+        flex: 1;
+    }
+    
+    .content__frame__estetica .content__frame_description_if h6{
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 20%;
+        font-size: 1.5rem;
+        width: 150px;
+    }
+    
+    .content__frame_description_if .content__frame_description_icon{
+        margin-top: 11%;
+        margin-left: 5%;
+        font-size: 4rem;
+    }
+
+    .cirugia_estetica__content .content__cirugia_estetica .q2 h6{
+        margin-left: 20%;
+        width: 50px;
+    }
+
+    .cirugia_estetica__content .content__cirugia_estetica .q3 h6{
+        margin-left: 20%;   
+        width: 50px;
+    }
+
+    .cirugia_estetica__content .content__cirugia_estetica .q4 h6{
+        margin-left: 16%;
+        line-height: 20px;
+        width: 0px;
+    }
+}

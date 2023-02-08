@@ -1,0 +1,85 @@
+.main__menu {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.navbar__menu {
+    z-index: 100;
+    position: absolute;
+    background-color: #488d71cc;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    animation: back-color_anim 2s;
+}
+
+@keyframes back-color_anim {
+    0% {
+        background-color: transparent;
+        color: transparent;
+    }
+    100% {
+        background-color: #488d71cc;
+        color: white;
+    }
+}
+
+@keyframes font-color_anim {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: #b4dcc9;
+    }
+}
+
+.navbar__controls {
+    cursor: default;
+}
+
+/*LINKS*/
+
+.fullnav__links {
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    padding: 5rem 6rem;
+}
+
+.fullnav__links li ul h2 {
+    list-style: none;
+}
+
+.fullnav__links ul li {
+    list-style-type: none;
+}
+
+.fullnav__links a {
+    text-decoration: none;
+
+    color: #b4dcc9;
+    transition: 500ms;
+    animation: font-color_anim 2s;
+}
+
+.fullnav__links a:hover {
+    color: white;
+}
+
+.fullnav__h2 {
+    color: white;
+    margin-right: 10vw;
+    margin-top: 50px;
+}
+
+.fullnav__cirugia_estetica {
+    display: flex;
+}
+
+.fullnav__cirugia_estetica li {
+    width: 20rem;
+}

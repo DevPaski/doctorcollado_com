@@ -1,0 +1,109 @@
+.bg__general_aux_cookies{
+    position: absolute;
+    background-color: #519c7e;
+    width: 100%;
+    height: 552vh;
+}
+
+.bg__general_cookies{
+    position: absolute;
+    background-color: white;
+    width: 50vw;
+    height: 520vh;
+
+    margin-left: 20vw;
+    margin-top: 10vh;
+
+    border: 3px solid white;
+    border-radius: 25px 25px 0px 0px;
+    padding: 100px;
+}
+
+.bg__general_cookies .bg__icon .goBack_icon{
+    font-size: 2rem;
+    color: #519c7e;
+    transition: 500ms;
+
+    margin-bottom: 50px;
+}
+
+.bg__general_cookies .bg__icon a{
+    text-decoration: none;
+}
+
+.bg__general_cookies .bg__icon .goBack_icon:hover{
+    color: #b4dcc9;
+}
+
+.bg__general_cookies .bg__content_cookies{
+    padding: 50px;
+}
+
+.bg__general_cookies .bg__content_cookies {
+    margin-top: 20px;
+    line-height: 2.5;
+
+    text-align: justify;
+}
+
+.bg__general_cookies .bg__content_cookies h1{
+    color: #519c7e;
+    margin-top: -40px;
+}
+
+.bg__general_cookies .bg__content_cookies ul li{
+    font-weight: bold;
+    list-style: none;
+}
+
+.bg__general_cookies .bg__content_cookies ul li p{
+    font-weight: normal;
+}
+
+.bg__general_cookies .bg__content_cookies .cookies__sublist li{
+    list-style: circle;
+    text-align: justify;
+    font-weight: normal;
+
+    margin-left: 20px;
+}
+
+.bg__general_cookies .bg__content_cookies a{
+    color: #519c7e;
+    text-decoration: none;
+
+    transition: 500ms;
+}
+
+.bg__general_cookies .bg__content_cookies a:hover{
+    color: #b4dcc9;
+}
+
+.cookies__table{
+    border: 3px solid #519c7e;
+    font-weight: normal;
+
+    width: 100%;
+    border-collapse: collapse;
+
+    font-size: 0.8rem;
+}
+
+.cookies__table th{
+    border: 3px solid #519c7e;
+    padding: 8px;
+    text-align: center;
+}
+
+.cookies__table td{
+    border: 3px solid #519c7e;
+    padding: 8px;
+}
+
+.cookies__title{
+    text-decoration: underline;
+}
+
+.latest__table{
+    height: 20vh;
+}

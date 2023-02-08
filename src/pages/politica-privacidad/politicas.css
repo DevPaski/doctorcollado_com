@@ -1,0 +1,71 @@
+.bg__general_aux{
+    position: absolute;
+    background-color: #519c7e;
+    width: 100%;
+    height: 267vh;
+}
+
+.bg__general{
+    position: absolute;
+    background-color: white;
+    width: 50vw;
+    height: 235vh;
+
+    margin-left: 20vw;
+    margin-top: 10vh;
+
+    border: 3px solid white;
+    border-radius: 25px 25px 0px 0px;
+    padding: 100px;
+}
+
+.bg__general .bg__icon .goBack_icon{
+    font-size: 2rem;
+    color: #519c7e;
+    transition: 500ms;
+
+    margin-bottom: 50px;
+}
+
+.bg__general .bg__icon a{
+    text-decoration: none;
+}
+
+.bg__general .bg__icon .goBack_icon:hover{
+    color: #b4dcc9;
+}
+
+.bg__general .bg__content_policy{
+    padding: 50px;
+}
+
+.bg__general .bg__content_policy h1{
+    color: #519c7e;
+}
+
+.bg__general .bg__content_policy p{
+    margin-top: 20px;
+    line-height: 2.5;
+
+    text-align: justify;
+}
+
+.bg__general .bg__content_policy ul li{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 430px){
+    .bg__general_aux{
+        width: 100%;
+        height: 770vh;
+    }
+    
+    .bg__general{
+        width: 83vw;
+        height: 750vh;
+    
+        margin-left: 5%;
+        margin-top: 10vh;
+        padding: 10px;
+    }   
+}

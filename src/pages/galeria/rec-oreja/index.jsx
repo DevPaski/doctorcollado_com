@@ -1,0 +1,9 @@
+export {default as RecOrejaC1} from './c1/rec_oreja';
+export {default as RecOrejaC2} from './c2/rec_oreja';
+export {default as RecOrejaC3} from './c3/rec_oreja';
+export {default as RecOrejaC4} from './c4/rec_oreja';
+export {default as RecOrejaC5} from './c5/rec_oreja';
+export {default as RecOrejaC6} from './c6/rec_oreja';
+export {default as RecOrejaC7} from './c7/rec_oreja';
+export {default as RecOrejaC8} from './c8/rec_oreja';
+export {default as RecOrejaC9} from './c9/rec_oreja';
