@@ -1,5 +1,6 @@
 {
   "name": "drcollado",
+  "homepage": "https://devpaski.github.io/doctorcollado_com/",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.1",
+    "gh-pages": "^5.0.0",
     "react": "^18.1.0",
     "react-bootstrap": "^2.5.0",
     "react-compare-image": "^3.1.0",
@@ -29,6 +31,8 @@
   },
   "scripts": {
     "start": "react-scripts  --openssl-legacy-provider start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts  --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
